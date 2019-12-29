@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         mRandomBar = findViewById(R.id.random);
         mRandomBar.setRandomBarNum(10);
-        mRandomBar.Start();
+        mRandomBar.start();
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
