@@ -228,7 +228,7 @@ public class RandomBar extends View implements Runnable {
         isStart = false;
     }
 
-    public void Start() {
+    public void start() {
         isStart = true;
         postInvalidate();
     }
