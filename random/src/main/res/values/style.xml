@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RandomBar">
+        <attr name="RandomBarNum" format="integer"/>
+        <attr name="RandomBarColor" format="color"/>
+        <attr name="RandomBarOffset" format="integer"/>
+        <attr name="RandomBarWidth" format="dimension"/>
+        <attr name="RandomBarHeight" format="dimension"/>
+        <attr name="RandomBarBackGround" format="color"/>
+        <attr name="RandomBarDelayTime" format="float"/>
+    </declare-styleable>
+</resources>
